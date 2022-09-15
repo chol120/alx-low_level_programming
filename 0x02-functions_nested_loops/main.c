@@ -34,8 +34,3 @@ void num(int r, int n);
 
 
 
-#endif
-<<<<<<< HEAD
-^c
-=======
->>>>>>> 9c06a5f8e0ec9d576768b949c9a995a3986e5c4e
