@@ -1,47 +1,53 @@
-nclude "holberton.h"
-
-
-
-/**
+/**                                                             
  *
- *  * rev_string - a function that reverses a string
+ *  * rev_string - reverses a string                               
  *
- *   * @s: input to reverse
+ *   *                                                              
  *
- *    * Return: string and in reverse
+ *    * @s: string parameter input                                   
  *
- *     */
+ *     *                                                              
+ *
+ *      * Return: Nothing                                              
+ *
+ *      */                                                              
 
-void rev_string(char *s)
+                                                                
 
-{
+void rev_string(char *s)                                        
 
-		char rev = s[0];
+{                                                               
 
-			int fcounter = 0;
+	        int l, i;                                               
 
-				int i;
+		        char ch;                                                
 
+			                                                                
 
+			        /*find string length without null char*/                
 
-					while (s[fcounter] != '\0')
+			        for (l = 0; s[l] != '\0'; ++l)                          
 
-								fcounter++;
+					                ;                                               
 
+				                                                                
 
+				        /*swap the string by looping to half the string*/       
 
-						for (i = 0; i < fcounter; i++)
+				        for (i = 0; i < l / 2; ++i)                             
 
-								{
+						        {                                                       
 
-											fcounter--;
+								                ch = s[i];                                      
 
-													rev = s[i];
+										                s[i] = s[l - 1 - i]; /*-1 because the array star
 
-															s[i] = s[fcounter];
+														       ts from 0*/                                                     
 
-																	s[fcounter] = rev;
+												                s[l - 1 - i] = ch;                              
 
-																		}
+														        }                                                       
 
-}
+					                                                                
+
+}          
