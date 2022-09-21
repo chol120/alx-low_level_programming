@@ -1,37 +1,45 @@
-#ifndef MAIN_H                                                  
+#ifndef MAIN_H
 
-#define MAIN_H                                                  
+#define MAIN_H
 
-                                                                
+#include <stdio.h>
 
-#include <stdio.h>                                              
+/**
+ *
+ *  *void prototypes()
+ *
+ *   *int prototypes()
+ *
+ *    *char prototypes()
+ *
+ *     */
 
-                                                                
+void reverse_array(int *a, int n);
 
-int _putchar(char c);                                           
+void print_number(int n);
 
-void reset_to_98(int *n);                                       
+void print_buffer(char *b, int size);
 
-void swap_int(int *a, int *b);                                  
+int _strcmp(char *s1, char *s2);
 
-int _strlen(char *s);                                           
+char *_strcat(char *dest, char *src);
 
-void _puts(char *str);                                          
+char *_strncat(char *dest, char *src, int n);
 
-void print_rev(char *s);                                        
+char *_strncpy(char *dest, char *src, int n);
 
-void rev_string(char *s);                                       
+char *string_toupper(char *);
 
-void puts2(char *str);                                          
+char *cap_string(char *);
 
-void puts_half(char *str);                                      
+char *leet(char *);
 
-void print_array(int *a, int n);                                
+char *rot13(char *);
 
-char *_strcpy(char *dest, char *src);                           
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
 
-int _atoi(char *s);                                             
+char *add_strings(char *n1, char *n2, char *r, int r_index);
 
-                                                                
 
-#endif /* MAIN_H */ 
+
+#endif /*MAIN_H*/

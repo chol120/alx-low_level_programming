@@ -1,1 +1,1 @@
-Write a function that concatenates two strings
+More pointers, arrays and strings
