@@ -1,6 +1,6 @@
 #include "3-calc.h"
 
-int op_add(int a, int b);
+int op_add(int a, int b);6
 int op_sub(int a, int b);
 int op_mul(int a, int b);
 int op_div(int a, int b);
@@ -36,7 +36,7 @@ int op_sub(int a, int b)
  * Return: The product of a and b.
  */
 int op_mul(int a, int b)
-{6
+{
 	return (a * b);
 }
 /**
