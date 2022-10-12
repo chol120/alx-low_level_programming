@@ -1,4 +1,4 @@
-nclude "function_pointers.h"
+#include "function_pointers.h"
 
 #include <stdlib.h>
 
@@ -82,4 +82,3 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 
 	return (0);
 
-}
